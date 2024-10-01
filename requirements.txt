@@ -1,0 +1,20 @@
+Requirements 📋
+
+To successfully run this project, make sure you have the following libraries and dependencies installed:
+
+- Python 3.x: Make sure you're using a compatible version of Python.
+- Numpy: `pip install numpy`
+- Pandas: `pip install pandas`
+- Matplotlib: `pip install matplotlib`
+- Seaborn: `pip install seaborn`
+- NLTK: `pip install nltk`
+    - You will also need to download the NLTK tokenizer models (e.g., `punkt`).
+    ```python
+    import nltk
+    nltk.download('punkt')
+    ```
+- Scikit-learn: `pip install scikit-learn`
+- WordCloud: `pip install wordcloud`
+- OpenCV: `pip install opencv-python`
+- TfidfVectorizer (part of scikit-learn, but make sure it is available)
+
